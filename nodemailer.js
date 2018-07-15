@@ -5,7 +5,7 @@ const fs = require('fs');
 const config = require('./config');
 
 /**
- * input your username (email address from)
+ * input your username (email address)
  * input your password
  */
 
