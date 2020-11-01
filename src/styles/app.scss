@@ -1,0 +1,16 @@
+@import 'mixins';
+@import 'colors';
+@import 'breakpoints';
+@import 'foundation-emails-settings';
+@import 'foundation-emails/foundation-emails';
+@import 'buttons';
+@import 'layouts/*';
+@import 'templates/*';
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}

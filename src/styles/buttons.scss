@@ -1,0 +1,68 @@
+.button {
+	&Primary {
+		padding-left: 35px;
+		padding-right: 35px;
+		text-align: center;
+		display: block;
+		color: white;
+		font-size: 16px;
+		font-weight: bold;
+		text-decoration: none;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		background-color: $bright-blue;
+
+		&:hover {
+			color: white;
+		}
+
+		&:visited {
+			color: white;
+		}
+	}
+
+	&Secondary {
+		background-color: $white;
+		padding-left: 35px;
+		padding-right: 35px;
+		text-align: center;
+		display: block;
+		color: $bright-blue;
+		font-size: 16px;
+		font-weight: bold;
+		text-decoration: none;
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+		&:hover {
+			color: darken($bright-blue, 20%);
+		}
+
+		&:visited {
+			color: lighten($bright-blue, 10%);
+		}
+	}
+
+	&Tertiary {
+		padding-left: 10px;
+		padding-right: 10px;
+		text-align: center;
+		display: block;
+		color: white;
+		font-size: 12px;
+		font-weight: bold;
+		text-decoration: none;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: $dark-blue;
+		font-weight: 600;
+
+		&:hover {
+			color: white;
+		}
+
+		&:visited {
+			color: white;
+		}
+	}
+}

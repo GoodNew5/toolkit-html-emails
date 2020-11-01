@@ -1,0 +1,53 @@
+//stylelint-disable
+
+@mixin on-hover {
+  @media (pointer: fine) {
+    &:not([disabled]):hover {
+      @content;
+    }
+  }
+}
+
+@mixin clearfix {
+  &:after, &:before {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin not-last {
+  &:not(:last-of-type) {
+    @content;
+  }
+}
+
+@mixin not-disabled {
+  &:not(:disabled) {
+    @content;
+  }
+}
+
+@mixin not-empty {
+  &:not(:empty) {
+    @content;
+  }
+}
+
+@mixin not-hover {
+  &:not(:hover) {
+    @content;
+  }
+}
+
+@mixin first-element {
+  &:first-of-type {
+    @content;
+  }
+}
+
+@mixin last-element {
+  &:last-of-type {
+    @content;
+  }
+}
